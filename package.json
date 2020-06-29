@@ -1,0 +1,24 @@
+{
+  "name": "electron-windows-98",
+  "version": "1.0.0",
+  "description": "A simple Electron app that looks like Windows 98",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "LuisEnMarroquin <luis@marroquin.dev>",
+  "scripts": {
+    "start": "electron .",
+    "package:win32": "electron-packager . Windows98x32 --platform=win32 --arch=ia32",
+    "package:win64": "electron-packager . Windows98x64 --platform=win32 --arch=x64",
+    "package:mac32": "electron-packager . Windows98x32 --platform=darwin --arch=ia32",
+    "package:mac64": "electron-packager . Windows98x64 --platform=darwin --arch=x64",
+    "package:lin32": "electron-packager . Windows98x32 --platform=linux --arch=ia32",
+    "package:lin64": "electron-packager . Windows98x64 --platform=linux --arch=x64"
+  },
+  "dependencies": {
+    "98.css": "^0.1.16"
+  },
+  "devDependencies": {
+    "electron": "^9.0.5",
+    "electron-packager": "^15.0.0"
+  }
+}

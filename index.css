@@ -1,0 +1,27 @@
+html, body {
+  height: 100% !important;
+  min-height: 100% !important;
+}
+
+body {
+  margin: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 6px;
+  padding-bottom: 0px;
+  background-color: #dfdfdf;
+}
+
+.window {
+  width: 100%;
+  height: 100px !important;
+  min-height: calc(100% - 6px) !important
+}
+
+.title-bar {
+  -webkit-app-region: drag;
+}
+
+#min-btn, #max-btn, #cls-btn {
+  -webkit-app-region: no-drag;
+}
