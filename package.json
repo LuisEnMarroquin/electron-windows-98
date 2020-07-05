@@ -20,5 +20,9 @@
   "devDependencies": {
     "electron": "^9.0.5",
     "electron-packager": "^15.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisEnMarroquin/electron-windows-98.git"
   }
 }

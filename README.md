@@ -2,9 +2,12 @@
 
 An electron app using [98.css](https://github.com/jdan/98.css)
 
+![image-not-found](https://marroquin.dev/cdn/electron_win98.jpg)
+
 ## Requirements
 
-* [NodeJS >= 12 LTS](https://nodejs.org)
+* [Node.js >= 10](https://nodejs.org)
+* [npm >= 6](https://www.npmjs.com)
 
 ## Run
 
