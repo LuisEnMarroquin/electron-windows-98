@@ -1,5 +1,0 @@
-# Ignore when download as zip with “export-ignore”.
-.gitattributes export-ignore
-
-# Default decision when conflicts appear: default, ours, then.
-package-lock.json merge=ours

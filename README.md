@@ -2,7 +2,7 @@
 
 An electron app using [98.css](https://github.com/jdan/98.css)
 
-![image-not-found](https://marroquin.dev/cdn/electron_win98.jpg)
+![image-not-found](readme.jpg)
 
 ## Requirements
 
