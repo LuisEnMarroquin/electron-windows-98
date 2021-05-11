@@ -11,8 +11,6 @@ An electron app using [98.css](https://github.com/jdan/98.css)
 
 ## Run
 
-If you don't have **Git** you can click **Download ZIP**
-
 ```shell
 git clone https://github.com/LuisEnMarroquin/electron-windows-98.git
 cd electron-windows-98/

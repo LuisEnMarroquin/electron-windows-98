@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Windows 98</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" /> <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
-    <link rel="stylesheet" href="node_modules/98.css/dist/98.css" />
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <div class="window">
-      <div class="title-bar">
-        <div class="title-bar-text">Windows 98</div>
-        <div class="title-bar-controls">
-          <button id="min-btn" aria-label="Minimize"></button>
-          <button id="max-btn" aria-label="Maximize"></button>
-          <button id="cls-btn" aria-label="Close"></button>
-        </div>
-      </div>
-      <div class="window-body">
-        <p id="app-status"></p>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Windows 98</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <link rel="stylesheet" href="node_modules/98.css/dist/98.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="window">
+    <div class="title-bar">
+      <div class="title-bar-text">Windows 98</div>
+      <div class="title-bar-controls">
+        <button id="min-btn" aria-label="Minimize"></button>
+        <button id="max-btn" aria-label="Maximize"></button>
+        <button id="cls-btn" aria-label="Close"></button>
       </div>
     </div>
-    <script src="index.js"></script>
-  </body>
+    <div class="window-body">
+      <p id="app-status"></p>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>
